@@ -1,5 +1,3 @@
-import "./CharacterComponent.css";
-import "../../index.css";
 import { FC, ReactNode } from "react";
 
 interface CharacterComponentProps {
@@ -8,7 +6,7 @@ interface CharacterComponentProps {
 
 const CharacterComponent: FC<CharacterComponentProps> = ({ children }) => {
   return (
-    <div className="card border-2 border-orange-700 rounded-lg">
+    <div className="p-3 border shadow  border-blue-100 rounded-xl">
       <div>{children}</div>
     </div>
   );
