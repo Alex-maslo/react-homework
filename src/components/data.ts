@@ -1,4 +1,12 @@
-export const simpsons = [
+export interface ISimpson {
+  name: string;
+  surname: string;
+  age: number;
+  info: string;
+  photo: string;
+}
+
+export const simpsons: ISimpson[] = [
   {
     name: "Bart",
     surname: "Simpson",
